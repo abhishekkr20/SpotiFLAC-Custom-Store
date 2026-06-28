@@ -1,27 +1,28 @@
 {
   "name": "SpotiFLAC Custom Store",
   "version": "1.0.0",
-  "description": "Custom SpotiFLAC extension registry",
+  "description": "Custom SpotiFLAC Extension Registry",
+  "author": "abhishekkr20",
   "extensions": [
     {
       "id": "openlyrics",
       "display_name": "OpenLyrics",
-      "description": "Lyrics provider for SpotiFLAC.",
+      "description": "Lyrics Provider",
       "author": "abhishekkr20",
       "version": "1.0.0",
       "category": "lyrics",
-      "download_url": "extensions/openlyrics.spotiflac-ext",
-      "icon": "icons/lyrics.png"
+      "icon": "icons/lyrics.png",
+      "download_url": "extensions/openlyrics.spotiflac-ext"
     },
     {
       "id": "utility-tools",
-      "display_name": "Utility Functions",
-      "description": "Utilities for metadata, filenames and helper tools.",
+      "display_name": "Utility Tools",
+      "description": "Metadata, filename and helper utilities",
       "author": "abhishekkr20",
       "version": "1.0.0",
       "category": "utility",
-      "download_url": "extensions/utility-tools.spotiflac-ext",
-      "icon": "icons/utility.png"
+      "icon": "icons/utility.png",
+      "download_url": "extensions/utility-tools.spotiflac-ext"
     }
   ]
 }
